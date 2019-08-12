@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-mvc-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

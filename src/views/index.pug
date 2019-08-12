@@ -1,0 +1,9 @@
+extends layouts/main.pug
+
+block content
+  form(action="/" method="POST")
+    .form-group
+      input(type="text" class="form-control" name="name" placeholder="Name")
+    .form-group 
+      input(type="email" class="form-control" name="email" placeholder="Email")
+    button(type="submit" class="btn btn-primary") Send
