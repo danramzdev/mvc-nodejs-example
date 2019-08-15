@@ -5,7 +5,7 @@ class UserController {
     try {
       const errors = validationResult(req);
 
-      if (errors) {
+      if (!errors.isEmpty()) {
         return res.json({ errors: errors.array() });
       }
 

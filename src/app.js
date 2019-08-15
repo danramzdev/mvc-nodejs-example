@@ -22,7 +22,7 @@ const UserController = require("./controllers/api/UserController");
 
 // Routes
 app.use("/", require("./routes/index")(IndexController));
-app.use("/api", require("./routes/api/user")(UserController));
+app.use("/api/user", require("./routes/api/user")(UserController));
 
 // Init Server
 app.listen(port, () => {
