@@ -18,11 +18,11 @@ app.set("view engine", "pug");
 
 // Controllers
 const IndexController = require("./controllers/IndexController");
-const UserController = require("./controllers/UserController");
+const UserController = require("./controllers/api/UserController");
 
 // Routes
-require("./routes/index")(app, IndexController);
-require("./routes/api/user")(app, UserController);
+app.use("/", require("./routes/index")(IndexController));
+app.use("/api", require("./routes/api/user")(UserController));
 
 // Init Server
 app.listen(port, () => {
