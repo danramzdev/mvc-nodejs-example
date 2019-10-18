@@ -1,1 +1,1 @@
-// Write some model to user
+// Write some model for user
