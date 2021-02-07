@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.8.0",
     "pug": "^2.0.4",
-    "snyk": "^1.434.3"
+    "snyk": "^1.437.4"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
