@@ -15,7 +15,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-validator": "^6.8.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "snyk": "^1.434.3"
   },
   "devDependencies": {
